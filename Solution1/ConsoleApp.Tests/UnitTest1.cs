@@ -39,5 +39,12 @@ namespace ConsoleApp.Tests
             int result = Program.Add(3, 4);
             Assert.AreEqual(7, result);
         }
+
+        [TestMethod]
+        public void TestMethod6()
+        {
+            int result = Program.Add(3, 4);
+            Assert.AreEqual(7, result);
+        }
     }
 }
