@@ -3,7 +3,7 @@
 
     $buildPlatform = "x64"
 
-    $solutionFile = "..\Solution1\TeamCityProject.sln"
+    $solutionFile = "..\Solution2\Solution2.sln"
 
     $solutionDirectory = (Get-Item $solutionFile).DirectoryName
 
