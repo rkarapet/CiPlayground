@@ -34,5 +34,12 @@ namespace ClassLibrary.Tests
             int actual = Utility.Divide(8, 9);
             Assert.AreEqual(0, actual);
         }
+
+        [TestMethod]
+        public void TestMethod5()
+        {
+            int actual = Utility.Divide(8, 9);
+            Assert.AreEqual(0, actual);
+        }
     }
 }
