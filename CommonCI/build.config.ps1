@@ -3,14 +3,14 @@
 
     $buildPlatform = "x64"
 
-    $solutionFile = "..\TeamCityProject\TeamCityProject.sln"
+    $solutionFile = "..\Solution1\TeamCityProject.sln"
 
     $solutionDirectory = (Get-Item $solutionFile).DirectoryName
 
 	$cur = pwd
     $artifactsDirectory= "$cur\.build"
 
-    $nuget = "$env:USERPROFILE\Documents\WindowsPowerShell\psake-master\psake-master\build\nuget\NuGet.exe"
+    $nuget = "$env:USERPROFILE\AppData\Local\NuGet\NuGet.exe"
 
     $msbuild = "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\msbuild.exe"
 
