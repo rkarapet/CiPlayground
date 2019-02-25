@@ -22,5 +22,13 @@ namespace Solution2.Tests
             int actual = Utility.Plus(2, 9);
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void ShouldReturn18()
+        {
+            const int expected = 11;
+            int actual = Utility.Plus(17, 1);
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
